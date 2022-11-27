@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const ExperienceCard = () => {
   return (
-    <article className='flex h-[fit-content] w-[500px] flex-shrink-0 snap-center flex-col items-center space-y-7 rounded-lg bg-[#292929] p-10 text-center opacity-40 hover:opacity-100 md:w-[600px] xl:w-[900px]'>
+    <article className='flex h-[fit-content] w-[500px] flex-shrink-0 flex-col items-center space-y-7 rounded-lg bg-[whitesmoke] p-10 text-center opacity-40 hover:opacity-100 dark:bg-[#292929] md:w-[600px] xl:w-[900px]'>
       <motion.img
         initial={{
           y: -100,
@@ -20,17 +20,21 @@ const ExperienceCard = () => {
       <div className='px-0 md:px-10'>
         <h4 className='text-3       xl font-light'>Frontend Developer</h4>
         <p className='mt-1 text-2xl font-bold'>At Fireswitch Technologies</p>
-        <div className='my-2 flex space-x-3'>
-          {/* tech used */}
+        <div className='grid grid-cols-5 place-items-center space-y-4 py-2'>
           <img
             className='h-10 w-10 rounded-full'
-            src='https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg'
-            alt='tailwindcss_logo'
+            src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
+            alt='react_icon'
           />
           <img
             className='h-10 w-10 rounded-full'
             src='https://cdn.cdnlogo.com/logos/m/56/materialize-css.svg'
             alt='materilaize_logo'
+          />
+          <img
+            className='h-10 w-10 rounded-full'
+            src='https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg'
+            alt='tailwindcss_logo'
           />
           <img
             className='h-10 w-10 rounded-full'
@@ -49,30 +53,26 @@ const ExperienceCard = () => {
           />
           <img
             className='h-10 w-10 rounded-full'
-            src='https://cdn.cdnlogo.com/logos/j/69/javascript.svg'
-            alt='javascript_logo'
-          />
-          <img
-            className='h-10 w-10 rounded-full'
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmO962KmJdNhGGZubJ92-ZNzW3sXUYMqYdffbCc0j0cn4A9R-ANdM0B15cz8nonwVnxBw&usqp=CAU'
             alt=''
           />
           <img
             className='h-10 w-10 rounded-full'
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
-            alt='react_icon'
+            src='https://cdn.cdnlogo.com/logos/j/69/javascript.svg'
+            alt='javascript_logo'
           />
+
           <img
             className='h-10 w-10 rounded-full'
             src='https://e7.pngegg.com/pngimages/205/650/png-clipart-node-js-javascript-software-developer-express-js-computer-software-node-js-logo-nodejs-thumbnail.png'
             alt='nodejs'
           />
+          <img
+            className='h-10 w-10 rounded-full'
+            src='https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png'
+            alt=''
+          />
         </div>
-        <img
-          className='h-10 w-10 rounded-full'
-          src='https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png'
-          alt=''
-        />
         <p className='py-5 uppercase text-gray-500'>Started: 2021 - present</p>
 
         <ul className='ml-5 list-none space-y-4 text-justify text-lg'>
