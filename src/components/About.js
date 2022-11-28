@@ -43,17 +43,23 @@ const About = () => {
       <div className='px:0 space-y-10 md:px-10'>
         <h4 className='mt-3 text-3xl font-semibold uppercase md:mt-0'>Bio</h4>
         <p className='text-justify text-sm md:text-base'>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. All
-          the Lorem Ipsum generators on the Internet tend to repeat predefined
-          chunks as necessary, making this the first true generator on the
-          Internet. It uses a dictionary of over 200 Latin words, combined with
-          a handful of model sentence structures, to generate Lorem Ipsum which
-          looks reasonable. The generated Lorem Ipsum is therefore always free
-          from repetition, injected humour, or non-characteristic words etc.
+          Hi, I'm Akande Nicodemus based in Ibadan, Nigeria. I'm a software
+          engineer because I found my true passion in programming. Whether
+          figuring out a difficult problem or crafting a beautiful user
+          experience, programming satisfies my desire for both constant learning
+          and earning a living. As a Full Stack Developer, I look forward to
+          learning and working continuously with driven and successful teams,
+          while expanding my fluency in multiple programming languages.
+          Languages: JavaScript(ES6), HTML5, CSS3. Frameworks: ReactJS, Redux,
+          Node.js, Express.js, Tailwind, Bootstrap Databases: MongoDB, MySQL,
+          Firestore. Concepts: Data Structures & Algorithms, Git, Netlify,
+          Heroku, API Development, Model-View-Controller (MVC), Firebase, etc
+          I'm able to deliver excellent results under a tight schedule. Outside
+          of my tech life, I enjoy watching basketball,tennis and football. Also
+          a big netflix fan. I'm always available to have a conversation, so
+          feel free to contact me by mail (niciodemusakande@gmail.com) if
+          there's something you'd like to discuss or visit my portfolio site for
+          more info: https://portfolio.com.
         </p>
         <div className='top[-50%] absolute left-0 h-[500px] w-full -skew-y-12 bg-[#f7ab0a]/5'></div>
         <div className='bottom[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div>

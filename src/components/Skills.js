@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Skill from './Skill';
 
-const Skills = () => {
+const Skills = ({ resumeData }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,15 +17,16 @@ const Skills = () => {
         Hover for skill proficiency
       </h3>
 
-      <div className='grid grid-cols-4 gap-5'>
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+      <div className='mt-24 grid grid-cols-4 gap-5'>
+        {resumeData.skills.map((skill) => {
+          return (
+            <Skill
+              key={skill.id}
+              img={skill.imgurl}
+              proficiency={skill.proficiency}
+            />
+          );
+        })}
       </div>
     </motion.div>
   );
