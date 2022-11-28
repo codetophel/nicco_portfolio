@@ -59,7 +59,7 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className='mx-auto flex w-fit flex-col space-y-2 px-[15%] md:px-0'
+          className='mx-auto flex w-fit flex-col space-y-2 px-[10%] md:px-0'
         >
           <input
             placeholder='Name'

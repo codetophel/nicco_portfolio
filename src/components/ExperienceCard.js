@@ -18,64 +18,66 @@ const ExperienceCard = () => {
       />
 
       <div className='px-0 md:px-10'>
-        <h4 className='text-3xl font-light'>Frontend Developer</h4>
-        <p className='mt-1 text-2xl font-bold'>At Fireswitch Technologies</p>
+        <h4 className='text-lg font-light md:text-3xl'>Frontend Developer</h4>
+        <p className='text-md mt-1 font-bold md:text-2xl'>
+          At Fireswitch Technologies
+        </p>
         <div className='grid grid-cols-5 place-items-center gap-3 space-y-4 py-2 md:px-10'>
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
             alt='react_icon'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://cdn.cdnlogo.com/logos/m/56/materialize-css.svg'
             alt='materilaize_logo'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg'
             alt='tailwindcss_logo'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://cdn.cdnlogo.com/logos/c/18/css.svg'
             alt='css_logo'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://cdn.cdnlogo.com/logos/h/90/html-5.svg'
             alt='html_logo'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxms_89DVmV1TlKo0oH9r3DxXe4o7fpez3Uk84kZ1GyiucnpoqR9IJUwbPWBGifosp7PY&usqp=CAU'
             alt='mongoDb'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmO962KmJdNhGGZubJ92-ZNzW3sXUYMqYdffbCc0j0cn4A9R-ANdM0B15cz8nonwVnxBw&usqp=CAU'
             alt=''
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://cdn.cdnlogo.com/logos/j/69/javascript.svg'
             alt='javascript_logo'
           />
 
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://e7.pngegg.com/pngimages/205/650/png-clipart-node-js-javascript-software-developer-express-js-computer-software-node-js-logo-nodejs-thumbnail.png'
             alt='nodejs'
           />
           <img
-            className='h-10 w-10 rounded-full'
+            className='h-7 w-7 rounded-full'
             src='https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png'
             alt=''
           />
         </div>
         <p className='py-5 uppercase text-gray-500'>Started: 2021 - present</p>
 
-        <ul className='ml-5 list-disc space-y-4 px-10 text-left text-sm'>
+        <ul className='ml-5 list-disc space-y-4 px-0 text-left text-sm md:px-10'>
           <li>
             Developed full-stack web applications which processed, analyzed, and
             rendered data visually.

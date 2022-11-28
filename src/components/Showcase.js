@@ -23,7 +23,7 @@ const Showcase = () => {
       />
 
       <div className=''>
-        <h2 className='pb-2 text-sm uppercase tracking-[10px]  text-gray-400 '>
+        <h2 className='pb-2 text-sm uppercase tracking-[5px] text-gray-400  md:tracking-[10px] '>
           Software developer
         </h2>
         <h1 className='text-md font-semibold lg:text-3xl'>

@@ -41,7 +41,7 @@ const About = () => {
       />
 
       <div className='px:0 space-y-10 md:px-10'>
-        <h4 className='mt-3 text-3xl font-semibold uppercase md:mt-[300px]'>
+        <h4 className='mt-3 text-lg font-semibold uppercase md:mt-[300px] md:text-3xl'>
           Bio
         </h4>
         <p className='text-justify text-sm md:text-base'>
