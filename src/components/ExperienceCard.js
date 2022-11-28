@@ -20,7 +20,7 @@ const ExperienceCard = () => {
       <div className='px-0 md:px-10'>
         <h4 className='text-3xl font-light'>Frontend Developer</h4>
         <p className='mt-1 text-2xl font-bold'>At Fireswitch Technologies</p>
-        <div className='grid grid-cols-5  place-items-center gap-5 space-y-4 py-2'>
+        <div className='grid grid-cols-5 place-items-center gap-3 space-y-4 py-2 md:px-10'>
           <img
             className='h-10 w-10 rounded-full'
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
@@ -75,12 +75,25 @@ const ExperienceCard = () => {
         </div>
         <p className='py-5 uppercase text-gray-500'>Started: 2021 - present</p>
 
-        <ul className='ml-5 list-none space-y-4 text-justify text-lg'>
-          <li>Things I did there</li>
-          <li>Things I did there</li>
-          <li>Things I did there</li>
-          <li>Things I did there</li>
-          <li>Things I did there</li>
+        <ul className='ml-5 list-disc space-y-4 px-10 text-left text-sm'>
+          <li>
+            Developed full-stack web applications which processed, analyzed, and
+            rendered data visually.
+          </li>
+          <li>
+            Followed documentation to always remain up-to-speed on what needs to
+            be updated in response to new release versions.
+          </li>
+          <li>
+            Introduced Nextjs with React and Node.js for web applications,
+            decreasing load times by implementing server side routing
+          </li>
+          <li>Implemented React Hooks to promote better component lifecycle</li>
+          <li>Used Redux for state management of heavy web applications</li>
+          <li>
+            Planned, wrote, and debugged web applications and software with
+            complete accuracy using latest React resources.
+          </li>
         </ul>
       </div>
     </article>
