@@ -32,7 +32,7 @@ const Contact = () => {
       transition={{ duration: 1.5 }}
       className='relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-evenly pb-5 text-center md:flex-row'
     >
-      <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500 '>
+      <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500'>
         Contact
       </h3>
 
@@ -59,7 +59,7 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className=' mx-auto flex w-fit flex-col space-y-2'
+          className='mx-auto flex flex-col space-y-2 px-3'
         >
           <div className='flex space-x-2'>
             <input
