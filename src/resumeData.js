@@ -80,7 +80,7 @@ let resumeData = {
     {
       id: 8,
       imgurl: 'https://cdn.cdnlogo.com/logos/j/69/javascript.svg',
-      proficiency: '65%',
+      proficiency: '75%',
     },
     {
       id: 9,

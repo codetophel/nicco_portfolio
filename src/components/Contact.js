@@ -30,13 +30,13 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-evenly pb-5 text-center md:flex-row'
+      className='relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-evenly text-center'
     >
-      <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500'>
+      <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500 '>
         Contact
       </h3>
 
-      <div className='mt-24 flex flex-col space-y-9 md:mt-10 md:flex-row'>
+      <div className='mt-36 flex flex-col space-y-9 md:mt-10 md:flex-row'>
         <div className='mt-10 space-y-5 px-10 text-justify'>
           <h4 className='text-center text-2xl font-semibold'>
             {' '}
@@ -59,51 +59,36 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className='mx-auto flex flex-col space-y-2 px-3'
+          className='mx-auto flex w-fit flex-col space-y-2 px-[15%] md:px-0'
         >
-          <div className='flex space-x-2'>
-            <input
-              placeholder='Name'
-              className='contactInput'
-              type='text'
-              {...register('name', { required: 'Name is required!' })}
-            />
-            <ErrorMessage
-              errors={errors}
-              name='name'
-              render={({ message }) => (
-                <p className='p-2 text-right text-red-500'>{message}</p>
-              )}
-            />
-
-            <input
-              placeholder='Email'
-              className='contactInput'
-              type='email'
-              {...register('email', { required: 'Email is required!' })}
-            />
-            <ErrorMessage
-              errors={errors}
-              name='email'
-              render={({ message }) => (
-                <p className='p-2 text-right text-red-500'>{message}</p>
-              )}
-            />
-          </div>
-
           <input
-            placeholder='Subject'
+            placeholder='Name'
             className='contactInput'
             type='text'
-            {...register('subject', { required: 'Subject is required!' })}
+            {...register('name', { required: 'Name is required!' })}
           />
           <ErrorMessage
             errors={errors}
-            name='subject'
+            name='name'
             render={({ message }) => (
               <p className='p-2 text-right text-red-500'>{message}</p>
             )}
           />
+
+          <input
+            placeholder='Email'
+            className='contactInput'
+            type='email'
+            {...register('email', { required: 'Email is required!' })}
+          />
+          <ErrorMessage
+            errors={errors}
+            name='email'
+            render={({ message }) => (
+              <p className='p-2 text-right text-red-500'>{message}</p>
+            )}
+          />
+
           <textarea
             placeholder='Message'
             className='contactInput'
@@ -117,7 +102,7 @@ const Contact = () => {
             )}
           />
           <button
-            className='rounded-md bg-[#f7ab0a] py-5 px-5 text-center font-bold text-black'
+            className='rounded-md bg-[#f7ab0a] py-5 px-5 text-center font-bold uppercase text-black'
             type='submit'
           >
             Submit
