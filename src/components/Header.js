@@ -31,6 +31,11 @@ const Header = () => {
           fgColor='gray'
           bgColor='transparent'
         />
+        <SocialIcon
+          url='https://github.com/codetophel'
+          fgColor='gray'
+          bgColor='transparent'
+        />
       </motion.div>
 
       <motion.div

@@ -23,4 +23,8 @@ body {
   .showcase-btn {
     @apply mr-3 mb-3 rounded-full border border-[#242424] px-6 py-2 text-sm uppercase tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/80 hover:text-[#f7ab0a]/80;
   }
+
+  .contactInput {
+    @apply rounded-sm border-b bg-slate-400/10 px-6 py-4 text-gray-500 placeholder-gray-500 outline-none transition-all focus:border-[#f7Ab0a]/40 dark:border-[#242424];
+  }
 }

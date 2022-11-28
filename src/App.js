@@ -7,35 +7,36 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import resumeData from './resumeData';
 
 function App() {
   return (
     <Router>
       <div className='z-0 h-screen overflow-scroll'>
-        <Header />
+        <Header resumeData={resumeData} />
 
         <section id='showcase'>
-          <Showcase />
+          <Showcase resumeData={resumeData} />
         </section>
 
         <section id='about'>
-          <About />
+          <About resumeData={resumeData} />
         </section>
 
         <section id='experience'>
-          <Experience />
+          <Experience resumeData={resumeData} />
         </section>
 
         <section id='skills'>
-          <Skills />
+          <Skills resumeData={resumeData} />
         </section>
 
-        <section id='projects'>
-          <Projects />
+        <section id='project'>
+          <Projects resumeData={resumeData} />
         </section>
 
         <section id='contact'>
-          <Contact />
+          <Contact resumeData={resumeData} />
         </section>
       </div>
     </Router>
