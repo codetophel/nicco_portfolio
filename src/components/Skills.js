@@ -17,7 +17,7 @@ const Skills = ({ resumeData }) => {
         Hover for skill proficiency
       </h3>
 
-      <div className='mt-24 grid grid-cols-4 gap-5'>
+      <div className='mt-24 grid grid-cols-4 gap-5 md:pt-[150px]'>
         {resumeData.skills.map((skill) => {
           return (
             <Skill
