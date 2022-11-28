@@ -41,7 +41,9 @@ const About = () => {
       />
 
       <div className='px:0 space-y-10 md:px-10'>
-        <h4 className='mt-3 text-3xl font-semibold uppercase md:mt-0'>Bio</h4>
+        <h4 className='mt-3 text-3xl font-semibold uppercase md:mt-[300px]'>
+          Bio
+        </h4>
         <p className='text-justify text-sm md:text-base'>
           Hi, I'm Akande Nicodemus based in Ibadan, Nigeria. I'm a software
           engineer because I found my true passion in programming. Whether
