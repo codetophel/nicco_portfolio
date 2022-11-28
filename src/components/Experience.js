@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard';
 
 const Experience = () => {
   return (
-    <motion.div className='relative mx-auto flex min-h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-justify  md:flex-row md:px-10'>
+    <motion.div className='relative mx-auto mt-[50px] flex min-h-screen max-w-full flex-col items-center justify-evenly overflow-hidden  text-justify md:flex-row md:px-10'>
       <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500 '>
         Experience
       </h3>
