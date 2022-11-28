@@ -45,23 +45,20 @@ const About = () => {
           Bio
         </h4>
         <p className='text-justify text-sm md:text-base'>
-          Hi, I'm Akande Nicodemus based in Ibadan, Nigeria. I'm a software
-          engineer because I found my true passion in programming. Whether
-          figuring out a difficult problem or crafting a beautiful user
-          experience, programming satisfies my desire for both constant learning
-          and earning a living. As a Full Stack Developer, I look forward to
-          learning and working continuously with driven and successful teams,
-          while expanding my fluency in multiple programming languages.
-          Languages: JavaScript(ES6), HTML5, CSS3. Frameworks: ReactJS, Redux,
-          Node.js, Express.js, Tailwind, Bootstrap Databases: MongoDB, MySQL,
-          Firestore. Concepts: Data Structures & Algorithms, Git, Netlify,
-          Heroku, API Development, Model-View-Controller (MVC), Firebase, etc
-          I'm able to deliver excellent results under a tight schedule. Outside
-          of my tech life, I enjoy watching basketball,tennis and football. Also
-          a big netflix fan. I'm always available to have a conversation, so
-          feel free to contact me by mail (niciodemusakande@gmail.com) if
-          there's something you'd like to discuss or visit my portfolio site for
-          more info: https://portfolio.com.
+          Hi, I'm Akande Nicodemus based in Ibadan, Nigeria. An experienced
+          React Developer with 3 years in the industry. Proficient with React.
+          Used problem-solving aptitude to enhance application performance by
+          14%. Created data visualization tools and integrated designs.
+          Increased speed of product lifecycle and 100% of the time delivered
+          projects within deadline. Seeking to work on projects to leverage
+          experience with JavaScript to impress existing clients and obtain new
+          ones. I have multiple projects using JavaScript(ES6), Frameworks:
+          ReactJS, Redux, Node.js, Express.js, Tailwind, Bootstrap Databases:
+          MongoDB, MySQL, Firestore. Concepts: Data Structures & Algorithms,
+          Git, Netlify, Heroku, API Development, Model-View-Controller (MVC),
+          Firebase, etc I'm able to deliver excellent results under a tight
+          schedule. Outside of my tech life, I enjoy watching basketball,tennis
+          and football. Also a big netflix fan.
         </p>
         <div className='top[-50%] absolute left-0 h-[500px] w-full -skew-y-12 bg-[#f7ab0a]/5'></div>
         <div className='bottom[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div>
