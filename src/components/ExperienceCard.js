@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const ExperienceCard = () => {
   return (
-    <article className='mx-auto flex w-[500px] flex-shrink-0 flex-col items-center space-y-7 rounded-lg bg-[whitesmoke] p-10 text-center opacity-50 hover:opacity-100 dark:bg-[#292929] md:w-[600px] xl:w-[900px]'>
+    <article className='mx-auto flex flex-shrink-0 flex-col items-center space-y-7 rounded-lg bg-[whitesmoke] p-10 text-center opacity-50 hover:opacity-100 dark:bg-[#292929]  md:w-[600px] xl:w-[900px]'>
       <motion.img
         initial={{
           y: -100,
