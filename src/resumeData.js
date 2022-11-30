@@ -100,15 +100,16 @@ let resumeData = {
       id: 1,
       name: 'Contacts App',
       description:
-        'This is a react app built using Nodejs, express and MongoDb. The app manages contacts of users. Each User has his own unique contact list. Dark theme feature is also enabled using the device default system settings.',
+        'It is a fully responsive web application responsible for storing and keeping of users’ contacts. It also allows the users to add, update, edit, search and delete contacts. It uses mongoDb as database and was created with react, NodeJS and express server, it was deployed on Heroku post development. Dark theme feature is also enabled using the device default system settings.',
       imgurl:
         'https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2FvaJbHzegsYhwz9eRBjkS%2Fimage?alt=media&token=e7cc8e67-1568-478d-830b-13b159155f3e',
       link: 'https://lit-taiga-84295.herokuapp.com/',
     },
     {
       id: 2,
-      name: 'Netflix',
-      description: 'Netflix clone',
+      name: 'Movie App',
+      description:
+        'A web application that provides users with movies to stream. It allows the user to have a subscription plan using stripe. The app is fully responsive on all devices.',
       imgurl:
         'https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2F2ga5gJANcBhqf09CBHgL%2Fimage?alt=media&token=274df121-2153-4c81-ba9c-bbb8c2098efb',
       link: 'https://nicco-movie-app.netlify.app/',
@@ -116,7 +117,8 @@ let resumeData = {
     {
       id: 3,
       name: 'Insta-clone',
-      description: 'instagram',
+      description:
+        'It is a fully responsive social media web application that allows its users to upload pictures, comment and like each other posts. It uses google authentication for login feature. It is built with Nextjs and use firestore as real time database.',
       imgurl:
         'https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2F9AWqWnq8oFeOg8pmA98i%2Fimage?alt=media&token=0ca68937-be80-4c37-8b20-078d7c9e23e1',
       link: 'https://nicco-insta-clone.vercel.app/',

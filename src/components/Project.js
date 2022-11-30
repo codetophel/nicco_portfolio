@@ -21,13 +21,15 @@ const Project = ({ link, imgUrl, description, title }) => {
         }}
         src={imgUrl}
         alt=''
-        className='mx-auto place-items-center'
+        className=' mx-auto cursor-pointer place-items-center'
       />
       <div>
         <a href={link}>
           <h4 className='text-center text-2xl font-semibold'> {title}</h4>
         </a>
-        <p className='text-md pt-5'>{description}</p>
+        <p className='text:sm md:text-md px-5 pt-5 text-justify md:px-7'>
+          {description}
+        </p>
       </div>
     </div>
   );
