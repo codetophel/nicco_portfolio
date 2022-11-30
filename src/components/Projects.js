@@ -1,8 +1,8 @@
 import React from 'react';
-// import Project from './Project';
+import Project from './Project';
 import { motion } from 'framer-motion';
 
-const Projects = ({ projects }) => {
+const Projects = ({ resumeData }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,15 +14,24 @@ const Projects = ({ projects }) => {
         Projects
       </h3>
 
-      {/* <div className='relative z-20 flex w-full overflow-y-hidden overflow-x-scroll'>
-        {projects.map((project) => {
-          return <Project key={project.id} project={project} />;
+      <div className='grid-col-1 grid-col-1 z-20 mt-24 grid place-items-center justify-center p-10 lg:grid-cols-3 lg:gap-5 '>
+        {resumeData.projects.map((project) => {
+          return (
+            <Project
+              key={project.id}
+              id={project.id}
+              imgUrl={project.imgurl}
+              link={project.link}
+              description={project.description}
+              title={project.name}
+            />
+          );
         })}
         <Project />
-      </div> */}
+      </div>
 
-      <div className='top[-30%] absolute left-0 h-[500px] w-full -skew-y-3 bg-[#f7ab0a]/10'></div>
-      <div className='top[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div>
+      {/* <div className='top[-30%] absolute left-0 h-[500px] w-full -skew-y-3 bg-[#f7ab0a]/10'></div>
+      <div className='top[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div> */}
     </motion.div>
   );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Project = ({ id, projects, imgUrl, description, title }) => {
+const Project = ({ link, imgUrl, description, title }) => {
   return (
-    <div className='flex min-h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44'>
+    <div className='place-items-center text-center'>
       <motion.img
         initial={{
           y: -300,
@@ -19,15 +19,15 @@ const Project = ({ id, projects, imgUrl, description, title }) => {
         viewport={{
           once: true,
         }}
-        src='https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2FrHA3YnXNrIBhKnV9FFgh%2Fimage?alt=media&token=84b3f591-89ac-43c2-9517-a1d3744ee027'
+        src={imgUrl}
         alt=''
+        className='mx-auto place-items-center'
       />
       <div>
-        <h4 className='text-center text-2xl font-semibold'>
-          {' '}
-          case study {id + 1} of {projects.length}: {title}
-        </h4>
-        <p className='text-md text-justify'>{description}</p>
+        <a href={link}>
+          <h4 className='text-center text-2xl font-semibold'> {title}</h4>
+        </a>
+        <p className='text-md pt-5'>{description}</p>
       </div>
     </div>
   );

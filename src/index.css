@@ -15,6 +15,10 @@ body {
   }
 }
 
+.project-img {
+  mix-blend-mode: darken;
+  aspect-ratio: 3/2;
+}
 /* @media only screen and (max-width: 600px) {
   .form-container {
     padding: 0 10%;
