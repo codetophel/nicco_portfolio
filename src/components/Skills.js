@@ -13,7 +13,7 @@ const Skills = ({ resumeData }) => {
       <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500 '>
         Skills
       </h3>
-      <h3 className='absolute top-36 text-lg capitalize tracking-[5px] text-gray-500 '>
+      <h3 className='hidden md:inline-flex absolute top-36 text-lg capitalize tracking-[5px] text-gray-500 '>
         Hover for skill proficiency
       </h3>
 
