@@ -45,21 +45,7 @@ const About = () => {
           Bio
         </h4>
         <p className='text-justify text-sm md:text-base'>
-          Hi, I'm Akande Nicodemus based in Ibadan, Nigeria. An experienced
-          React Developer with 3 years in the industry. Proficient with React.
-          Used problem-solving aptitude to enhance application performance by
-          14%. Created data visualization tools and integrated designs.
-          Increased speed of product lifecycle and 100% of the time delivered
-          projects within deadline. Seeking to work on projects to leverage
-          experience with JavaScript to impress existing clients and obtain new
-          ones. I have multiple projects using JavaScript(ES6), Frameworks:
-          ReactJS, Redux, Node.js, Express.js, Tailwind, Bootstrap Databases:
-          MongoDB, MySQL, Firestore. Concepts: Data Structures & Algorithms,
-          Git, Netlify, Heroku, API Development, Model-View-Controller (MVC),
-          Firebase, etc I'm able to deliver excellent results under a tight
-          schedule. Outside of my tech life, I enjoy watching basketball,tennis
-          and football. Also a big netflix fan.
-        </p>
+          A highly efficient, hardworking, and talented professional who is dedicated to staying up to date with the latest trends and technologies in web applications designs and development. Effective leader with a background in managing and collaborating with diverse teams. I have over 3 years’ experience as a ReactJs developer.  I used Industry best practices in solving problems and in delivering projects assigned to me.  I have worked on multiple projects using technologies like Javascript (ES6), with the following frame works, Node.js, Redux, Express.js. Tailwind, Bootstrap, Databases such as MongoDB, MySql, Firestore. I have a dynamic understanding of data structure and algorithm with proven use in software testing and automation. I understand version controls technology like GIT, I work well with cloud based development tools such as Heroku,  and Netlify. I’m able to deliver results as at when required without hassle. Outside of work, I’m a big soccer and basketball fan, I play soccer and see movies casually when I have the time.</p>
         <div className='top[-50%] absolute left-0 h-[500px] w-full -skew-y-12 bg-[#f7ab0a]/5'></div>
         <div className='bottom[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div>
       </div>
