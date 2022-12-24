@@ -22,7 +22,7 @@ const Contact = () => {
   }, [formState, reset]);
 
   const onSubmit = (formData) => {
-    console.log(formData);
+    window.location.href = `mailto:nicodemusakande@gmail.com?body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
 
   return (
