@@ -18,7 +18,6 @@ const About = () => {
       <h3 className='absolute top-24 text-2xl uppercase tracking-[15px] text-gray-500'>
         About
       </h3>
-      <div className='flex items-center justify-evenly py-10 px-10 text-center md:flex-row md:text-left'>
         <motion.img
           initial={{
             x: -200,
@@ -34,9 +33,9 @@ const About = () => {
           viewport={{
             once: true,
           }}
-          className='md:mt-30 mt-[400px] h-56 w-56 flex-shrink-0 rounded-lg object-cover hover:animate-pulse  md:h-[500px] md:w-64 md:rounded-lg xl:h-[500px]  xl:w-[500px]
-        '
-          src='https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2FrHA3YnXNrIBhKnV9FFgh%2Fimage?alt=media&token=84b3f591-89ac-43c2-9517-a1d3744ee027'
+          className='md:mt-30 mt-[250px] h-56 w-56 flex-shrink-0 rounded-full object-cover hover:animate-pulse md:h-[500px]  md:w-64 md:rounded-lg xl:h-[500px] xl:w-[500px]
+          '
+          src='/img/nicco.jpeg'
           alt='nicco_pic'
         />
 
@@ -65,7 +64,6 @@ const About = () => {
           <div className='top[-50%] absolute left-0 h-[500px] w-full -skew-y-12 bg-[#f7ab0a]/5'></div>
           <div className='bottom[-30%] absolute right-0 h-[500px] w-full -skew-y-6 bg-[#f7ab0a]/5'></div>
         </div>
-      </div>
     </motion.div>
   );
 };

@@ -13,7 +13,7 @@ const ExperienceCard = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className=' h-32 w-32 rounded-full object-cover object-center  xl:h-[200px] xl:w-[200px] '
-        src='https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2FrHA3YnXNrIBhKnV9FFgh%2Fimage?alt=media&token=84b3f591-89ac-43c2-9517-a1d3744ee027'
+        src='/img/nicco.jpeg'
         alt='nicco_pic'
       />
 

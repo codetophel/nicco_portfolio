@@ -18,7 +18,7 @@ const Showcase = () => {
     >
       <img
         className='relative mx-auto mb-5 h-32 w-32 rounded-full object-cover'
-        src='https://firebasestorage.googleapis.com/v0/b/insta-clone-d89df.appspot.com/o/posts%2FrHA3YnXNrIBhKnV9FFgh%2Fimage?alt=media&token=84b3f591-89ac-43c2-9517-a1d3744ee027'
+        src='/img/nicco.jpeg'
         alt='nicco_pic'
       />
 
