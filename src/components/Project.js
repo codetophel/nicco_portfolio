@@ -2,8 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Project = ({ link, imgUrl, description, title }) => {
+  const handleClick = () => {
+    window.open(link, '_blank', 'noopener,noreferrer');
+  };
   return (
-    <div className='place-items-center text-center'>
+    <div className='place-items-center text-center cursor-pointer' onClick={handleClick}>
       <motion.img
         initial={{
           y: -300,
@@ -24,9 +27,7 @@ const Project = ({ link, imgUrl, description, title }) => {
         className=' mx-auto cursor-pointer place-items-center'
       />
       <div>
-        <a href={link}>
-          <h4 className='text-center text-2xl font-semibold'> {title}</h4>
-        </a>
+        <h4 className='text-center text-2xl font-semibold'> {title}</h4>
         <p className='text:sm md:text-md px-5 pt-5 text-justify md:px-7'>
           {description}
         </p>
