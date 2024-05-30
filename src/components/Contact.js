@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           <div className='flex items-center justify-center space-x-5'>
             <MapPinIcon className='h-7 w-7 animate-pulse text-[#f7ab0a]/80' />
-            <p className='text-lg'>Ibadan, Nigeria</p>
+            <p className='text-lg'>Lagos, Nigeria</p>
           </div>
         </div>
 
