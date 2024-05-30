@@ -35,7 +35,7 @@ let resumeData = {
   feel free to contact me by mail (niciodemusakande@gmail.com) if
   there's something you'd like to discuss or visit my portfolio site for
   more info: https://portfolio.com.`,
-  address: 'Ibadan, Nigeria',
+  address: 'Lagos, Nigeria',
   website: 'https://nicco.github.io',
   skillsDescription: 'Your skills here',
   skills: [
